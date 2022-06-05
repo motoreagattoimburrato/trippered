@@ -9,7 +9,7 @@ set width: WIDTH, height: HEIGHT, resizable: true, borderless: true
 set title: "Rainfall v1", background: 'navy'
 
 x_speed = 0
-y_speed = 3
+y_speed = 10
 
 drop = Array(drop)
 
