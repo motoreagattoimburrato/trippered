@@ -19,32 +19,32 @@ drop = Array(drop)
 #end
 
 def drop_opacity()
-  return rand
+  rand
 end
 
 def drop_x_pos(width)
   length = width - 1
-  return rand(0..length)
+  rand(0..length)
 end
 
 def drop_border_x_pos(drop_x_pos)
-  return drop_x_pos - 1
+  drop_x_pos - 1
 end
 
 def drop_size()
-  return rand(1..10)
+  rand(1..10)
 end
 
 def drop_border_size(drop_size)
-  return drop_size + 3
+  drop_size + 3
 end
 
 def drop_border_depth()
-  return rand(1..5)
+  rand(1..5)
 end
 
 def drop_depth(drop_border_depth)
-  return drop_border_depth + 2
+  drop_border_depth + 2
 end
 
 update do

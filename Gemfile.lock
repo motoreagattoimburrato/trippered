@@ -1,23 +1,15 @@
-PATH
-  remote: .
-  specs:
-    trippered (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (13.0.6)
-    rmagick (4.2.5)
+    ruby2d (0.11.3)
     tco (0.1.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rake
-  rmagick (~> 4.2, >= 4.2.5)
+  ruby2d (~> 0.11.1)
   tco (~> 0.1.8)
-  trippered!
 
 BUNDLED WITH
    2.1.4
