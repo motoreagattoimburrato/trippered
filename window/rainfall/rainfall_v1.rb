@@ -5,11 +5,11 @@ require 'ruby2d'
 WIDTH = 500
 HEIGHT = 1000
 
-set width: WIDTH, height: HEIGHT, resizable: true, borderless: false
+set width: WIDTH, height: HEIGHT, resizable: true, borderless: true
 set title: "Rainfall v1", background: 'navy'
 
 x_speed = 0
-y_speed = 2
+y_speed = 3
 
 drop = Array(drop)
 
